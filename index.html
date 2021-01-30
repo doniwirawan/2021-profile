@@ -8,114 +8,232 @@
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/sass/style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-none">
-        <a class="navbar-brand" href="#">Doni Wirawan</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">Doni Wirawan</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
 
 
-            </ul>
-
-        </div>
-
-    </nav>
-    <div class="container-fluid position-absolute welcome pl-0">
-
-        <div class="row ">
-            <div class="col-6 profile-section position-relative">
-                <img src="file:///D:/Pictures/stiki/foto%20twibon%20stiki/doni%20new%20profile.jpg" alt=""
-                    class="profile-img">
-                <div class="p-4 position-absolute hover-photo d-none">
-                    <h1>Doni Wirawan</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sed quibusdam impedit tempora,
-                        libero eaque labore placeat laboriosam velit debitis.</p>
-                    <div class="d-flex col-4 justify-content-between">
-                        <a href=""><i class="fab fa-github fa-2x"></i></a>
-                        <a href=""><i class="fab fa-twitter fa-2x"></i></a>
-                        <a href=""><i class="fab fa-instagram fa-2x"></i></a>
-                        <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
-                    </div>
-                </div>
+                </ul>
 
             </div>
+        </div>
 
-            <div class="col-6 d-flex align-content-center flex-wrap position-relative">
-                <h1 class="ml-3">Welcome</h1>
-                <p class="ml-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sed quibusdam impedit tempora,
-                    libero eaque labore placeat laboriosam velit debitis.</p>
-                <div class="project-section d-flex ">
-                    <div class="col-lg-4 rounded">
 
-                        <img src="file:///D:/Pictures/github%20profile%20readme.png" alt="" class="rounded">
-                            <h3>Project X</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et!</p>
+    </nav>
+    <div class="container-fluid home " id="home">
+        <div class="container mt-5 mb-5">
+            <div class="row position-relative d-flex mt-lg-5 align-items-center mb-5">
+                <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center" data-aos="fade-right">
+                    <h1>Hello, I'am <span class="text-primary name">Doni Wirawan</span></h1>
+                    <p class="bio"></p>
+                    <div class="col-6 m-0 p-0 mb-md-5">
 
+                        <a href="https://drive.google.com/file/d/1pIp_V7AQTsEUKj1-gFqqi5g5xmwEeAPB/view?usp=sharing"
+                            target="blank"><button class="btn btn-outline-primary">Download My CV</button></a>
                     </div>
-                    <div class="col-lg-4 rounded">
-
-                        <img src="file:///D:/Pictures/github%20profile%20readme.png" alt="" class="rounded">
-                            <h3>Project X</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et!</p>
-
-                    </div>
-                    <div class="col-lg-4 rounded">
-
-                        <img src="file:///D:/Pictures/github%20profile%20readme.png" alt="" class="rounded">
-                            <h3>Project X</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et!</p>
-
-                    </div>
-
                 </div>
-                <div class="project-section d-flex ">
-                    <div class="col-lg-4 rounded">
+                <div class="col-lg-6 col-md-12 position-relative d-flex flex-column justify-content-center mt-md-5" data-aos="fade-left">
+                    <img src="" alt=""
+                        class="profile-image d-flex align-item-center rounded-circle mx-auto  mt-lg-4 github-profile">
+                        <div class="job-status mx-auto">
 
-                        <img src="file:///D:/Pictures/github%20profile%20readme.png" alt="" class="rounded">
-                            <h3>Project X</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et!</p>
-
+                        </div>
+                       
+                    <div class=" d-flex flex-direction-row justify-content-center  social-media mt-2">
+                        <a href="https://instagram.com/doni_codes"><i class="fab fa-instagram fa-3x p-1"></i></a>
+                        <a href="https://github.com/doniwirawan"><i class="fab fa-github fa-3x p-1"></i></a>
+                        <a href="https://www.linkedin.com/in/doni-wirawan-7a0189178/"><i
+                                class="fab fa-linkedin fa-3x p-1"></i></a>
+                        <a href="https://twitter.com/doni_codes"><i class="fab fa-twitter fa-3x p-1"></i></a>
                     </div>
-                    <div class="col-lg-4 rounded">
-
-                        <img src="file:///D:/Pictures/github%20profile%20readme.png" alt="" class="rounded">
-                            <h3>Project X</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et!</p>
-
-                    </div>
-                    <div class="col-lg-4 rounded">
-
-                        <img src="file:///D:/Pictures/github%20profile%20readme.png" alt="" class="rounded">
-                            <h3>Project X</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et!</p>
-
-                    </div>
-
                 </div>
-
             </div>
         </div>
 
     </div>
 
+    <div class="container-fluid about  mt-5">
+        <div class="container pt-5" id="about">
+            <!-- <h2 class="text-center">About</h2> -->
+            <div class="row">
+                <div class="col-lg-6 col-md-12" data-aos="fade-right">
+                    <img src="" alt=""
+                        class="image-about d-flex align-item-center mx-auto justify-content-center mb-md-4 github-profile">
+                </div>
+                <div class="col-lg-6 col-md-12 position-relative mt-md-4" data-aos="fade-left">
+                    <h2>About Me</h2>
+                    <p class="name"></p>
+                    <p class="bio"></p>
+                    <p class="company"></p>
+                    <p class="blog"></p>
+                    <p class="location"></p>
+                    <p><i class="fab fa-github" aria-hidden="true"></i> Github Statistics :</p>
+                    <div class="d-flex flex-row ml-0 mb-md-5">
+                        <p class="followers m-2"></p>
+                        <p class="following m-2"></p>
+                        <p class="jumlah_repo m-2"></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid skill  position-relative mt-5 mt-md-5" id="skill">
+        <div class="container pt-2" data-aos="fade-up">
+            <h2 class="text-center mb-5">Skill</h2>
+            <div class="row justify-content-center text-primary">
+                <div class="col-2 m-1">
+                    <i class="fab fa-bootstrap fa-6x m-1"></i>
+                </div>
+                <div class="col-2 m-1">
+                    <i class="fab fa-laravel fa-6x"></i>
+
+                </div>
+                <div class="col-2 m-1">
+                    <i class="fab fa-js fa-6x"></i>
+
+                </div>
+                <div class="col-2 m-1">
+                    <i class="fab fa-sass fa-6x"></i>
+
+                </div>
+                <div class="col-2 m-1">
+
+                    <i class="fa fa-terminal fa-6x"></i>
+                </div>
+                <div class="col-2 m-1">
+                    <i class="fab fa-html5 fa-6x"></i>
+
+                </div>
+                <div class="col-2 m-1">
+                    <i class="fab fa-css3 fa-6x"></i>
+
+                </div>
+                <div class="col-2 m-1">
+                    <i class="fab fa-git fa-6x"></i>
+
+                </div>
+                <div class="col-2 m-1">
+                    <i class="fa fa-database fa-6x"></i>
+
+                </div>
+                <div class="col-2 m-1">
+                    <i class="fab fa-php fa-6x"></i>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid project mb-5" id="project" data-aos="fade-up">
+        <h2 class="text-center mt-4 mb-4">Project</h2>
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 col-md-12 " data-aos="fade-up">
+                    <a href="https://doni-expense-tracker.netlify.com/">
+                        <h3 class="text-center">Expense Tracker</h3>
+                    </a>
+                    <iframe src="https://doni-expense-tracker.netlify.com/" frameborder="0" class="p-2"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up">
+                    <a href="https://doni-hangman-game.netlify.com/">
+                        <h3 class="text-center">Hangman Game</h3>
+                    </a>
+
+                    <iframe src="https://doni-hangman-game.netlify.com/" frameborder="0" class="p-2"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up">
+                    <a href="https://doni-meal-finder.netlify.app/">
+                        <h3 class="text-center">Meal Finder</h3>
+                    </a>
+
+                    <iframe src="https://doni-meal-finder.netlify.app/" frameborder="0" class="p-2"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up">
+                    <a href="https://doni-cocktail-finder.netlify.app/">
+                        <h3 class="text-center">Coktail Tracker</h3>
+                    </a>
+
+                    <iframe src="https://doni-cocktail-finder.netlify.app/" frameborder="0" class="p-2"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up">
+                    <a href="https://doni-webclock.netlify.app/">
+                        <h3 class="text-center">Web Clock</h3>
+                    </a>
+
+                    <iframe src="https://doni-webclock.netlify.app/" frameborder="0" class="p-2"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up">
+                    <a href="https://doni-newyearcountdown.netlify.app/">
+                        <h3 class="text-center">New Year Countdown</h3>
+                    </a>
+
+                    <iframe src="https://doni-newyearcountdown.netlify.app/" frameborder="0" class="p-2"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up">
+                    <a href="https://doni-relaxer-app.netlify.app/">
+                        <h3 class="text-center">Breathe App</h3>
+                    </a>
+
+                    <iframe src="https://doni-relaxer-app.netlify.app/" frameborder="0" class="p-2"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12" data-aos="fade-up">
+                    <a href="https://doniwirawan.github.io">
+                        <h3 class="text-center">Personal Website</h3>
+                    </a>
+
+                    <iframe src="https://doniwirawan.github.io" frameborder="0" class="p-2"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-none text-white text-center text-lg-start mt-5" >
+        <div class="text-center p-3" style="background-color:#336EF8">
+            © 2021 Copyright:
+            <a class="text-white" href="https://doniwirawan.github.io/">Doni Wirawan</a>
+        </div>
+    </footer>
     <script src="./assets/js/jquery-3.5.1.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/fontawesome.min.js"></script>
     <script src="./assets/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -5,38 +5,63 @@
           box-sizing: border-box !important;
 }
 
-body {
-  background-color: #fff;
+.navbar ul li:hover a {
+  border-bottom: 2px solid #336EF8;
 }
 
-.profile-img {
-  height: 100vh;
-  width: auto;
+.home,
+.about,
+.skill {
+  height: 90vh;
 }
 
-.welcome {
-  top: -0px;
-  z-index: -1;
+.profile-image {
+  width: 300px;
+  height: auto;
 }
 
-.profile-section:hover .hover-photo {
-  display: block !important;
+.social-media {
+  right: 0;
+  bottom: 0;
 }
 
-.hover-photo {
-  bottom: -0px;
-  width: 97.2%;
-  background: rgba(255, 255, 255, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+.image-about {
+  max-width: 100%;
 }
 
-.project-section img {
+iframe {
   width: 100%;
-  height: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  min-height: 800px;
+  border-radius: 10px;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.project h3 {
+  font-size: 1em;
+}
+
+.number {
+  font-weight: bold;
+  color: #336EF8;
+}
+
+.job-status {
+  max-width: 200px;
+}
+
+.job-status p {
+  font-size: 1.2em;
+}
+
+@media (max-width: 500px) {
+  .skill {
+    top: 190px;
+  }
+  .skill .fa-6x {
+    font-size: 2em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
