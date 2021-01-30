@@ -4,6 +4,10 @@
     box-sizing: border-box !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 .navbar ul li:hover a {
     border-bottom: 2px solid #336EF8;
