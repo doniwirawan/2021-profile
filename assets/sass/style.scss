@@ -103,7 +103,32 @@ iframe {
 .footer {
     position: absolute;
     width: 100% !important;
-    bottom: -5000px !important;
+    bottom: -2400px !important;
+}
+
+.owl-nav {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4em;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.owl-nav button {
+    margin: 10px;
+}
+
+.owl-nav button:focus {
+    border: none;
+    outline: none;
+    color: rgb(208, 208, 208);
+}
+
+.owl-nav button:hover {
+    border: none;
+    outline: none;
+    color: rgb(163, 163, 163);
 }
 
 @media(max-width:500px) {
