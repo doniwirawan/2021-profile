@@ -54,3 +54,14 @@ function fetchingApi() {
         })
 }
 fetchingApi();
+
+
+
+window.addEventListener('load', () => {
+    const loading = document.querySelector('.loading');
+    loading.style.display = 'block';
+    setTimeout(() => {
+        loading.style.display = 'none';
+
+    }, 500);
+})
