@@ -6,8 +6,8 @@
 
 html {
     scroll-behavior: smooth;
-}
 
+}
 
 .navbar ul li:hover a {
     border-bottom: 2px solid #336EF8;
@@ -15,8 +15,13 @@ html {
 
 .home,
 .about,
-.skill {
+.skill,
+.project {
     height: 90vh;
+
+    // border-radius: 10px;
+    // border: 1px solid rgba(255, 255, 255, 0.18);
+
 }
 
 .profile-image {
@@ -74,6 +79,31 @@ iframe {
     .fa-spin {
         top: 300px;
     }
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background: url('https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1430&q=80');
+}
+
+.background-blur {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.footer {
+    position: absolute;
+    width: 100% !important;
+    bottom: -5000px !important;
 }
 
 @media(max-width:500px) {
