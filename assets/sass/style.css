@@ -138,5 +138,21 @@ iframe {
     width: 100% !important;
     bottom: -2600px !important;
   }
+  .profile-section {
+    margin-top: 100px;
+  }
+  #about .row {
+    position: relative;
+    margin-top: 100px;
+  }
+  .about-section {
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  .skill {
+    position: relative !important;
+    margin-top: 200px !important;
+    top: 200px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
