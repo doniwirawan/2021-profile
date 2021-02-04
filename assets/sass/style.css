@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .navbar ul li:hover a {
@@ -126,7 +127,47 @@ iframe {
   color: #a3a3a3;
 }
 
+.test {
+  left: -190px !important;
+  width: 400px;
+  height: auto;
+  z-index: -1;
+}
+
+.test-about {
+  width: 300px !important;
+  height: auto !important;
+  right: -50px;
+  z-index: -1;
+}
+
+.test-skill {
+  width: 300px !important;
+  height: auto !important;
+  z-index: -1;
+}
+
+.left {
+  left: -130px;
+}
+
+.right {
+  right: -130px !important;
+  top: -100px;
+  width: 250px !important;
+}
+
+.profile-ilus {
+  width: 240px !important;
+  height: auto !important;
+  z-index: -1;
+  top: -180px;
+}
+
 @media (max-width: 500px) {
+  html {
+    overflow-x: hidden;
+  }
   .skill {
     top: 190px;
   }
@@ -153,6 +194,37 @@ iframe {
     position: relative !important;
     margin-top: 200px !important;
     top: 200px !important;
+  }
+  .test {
+    left: -90px !important;
+    width: 400px;
+    height: auto;
+    z-index: -1;
+  }
+  .test-about {
+    width: 30px !important;
+    height: auto !important;
+    right: -50px;
+    z-index: -1;
+  }
+  .test-skill {
+    width: 30px !important;
+    height: auto !important;
+    z-index: -1;
+  }
+  .left {
+    left: -130px;
+  }
+  .right {
+    right: -130px !important;
+    top: -100px;
+    width: 25px !important;
+  }
+  .profile-ilus {
+    width: 24px !important;
+    height: auto !important;
+    z-index: -1;
+    top: -180px;
   }
 }
 /*# sourceMappingURL=style.css.map */
