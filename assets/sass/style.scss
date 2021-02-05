@@ -70,10 +70,13 @@ body {
     height: 100vh;
     padding: 10px 20px;
     right: 0;
+    overflow-y: scroll;
 
 }
 
 .jumbotron {
+    height: 88vh;
+
     img {
         width: 200px;
         height: auto;
