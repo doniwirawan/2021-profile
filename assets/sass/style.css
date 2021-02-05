@@ -312,6 +312,13 @@ iframe {
           transform: scaleX(-1);
 }
 
+.timeline__item,
+.timeline__title,
+.timeline__blurb,
+.timeline__item--year {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 @media (max-width: 567px) {
   body {
     font-family: 'Open Sans', sans-serif;
