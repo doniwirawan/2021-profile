@@ -18,7 +18,11 @@ $breakpoint: 700px;
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
+}
+
+.rotate-180 {
+    transform: rotate(-90deg) !important;
 }
 
 body {
@@ -270,8 +274,6 @@ body {
 .certificate {
     margin-top: 120px !important;
 }
-
-
 
 
 
