@@ -300,6 +300,53 @@ iframe {
     font-size: 1em;
 }
 
+.illustration-about {
+    z-index: -1;
+    width: 300px;
+    height: auto;
+    right: -50px;
+    bottom: -60px;
+}
+
+.illustration-education {
+    z-index: -1;
+    width: 200px;
+    height: auto;
+    left: 0;
+    top: -140px;
+}
+
+.illustration-education2 {
+    z-index: -1;
+    width: 200px;
+    height: auto;
+    right: 0;
+    bottom: -140px;
+    transform: scaleX(-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:567px) {
     body {
