@@ -267,6 +267,25 @@ body {
   display: none;
 }
 
+.project {
+  height: 100vh;
+  z-index: 999;
+}
+
+iframe {
+  width: 100%;
+  min-height: 800px;
+  border-radius: 10px;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.project h3 {
+  font-size: 1em;
+}
+
 @media (max-width: 567px) {
   body {
     font-family: 'Open Sans', sans-serif;
@@ -316,7 +335,8 @@ body {
   .about,
   .jumbotron,
   .timeline-container,
-  .certificate {
+  .certificate,
+  .project {
     top: 0;
     z-index: 2;
     background-color: #fff;
